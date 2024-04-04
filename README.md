@@ -1,4 +1,5 @@
 **_Instructions_**
+
 Your goal for this lab is to recreate the UI design below as a React app.
 
 1. Start by creating a new React project with Vite.
