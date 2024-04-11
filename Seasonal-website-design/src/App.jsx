@@ -1,8 +1,10 @@
 import './App.css'
-import winterImage from'../../Images/winter.jpg'
-import springImage from'../../Images/spring.jpg'
-import summerImage from'../../Images/summer.jpg'
-import fallImage from'../../Images/fall.jpg'
+import Card from '../Components/Card'
+
+import winterImage from '../../Images/winter.jpg'
+import springImage from '../../Images/spring.jpg'
+import summerImage from '../../Images/summer.jpg'
+import fallImage from '../../Images/fall.jpg'
 
 function App() {
 
@@ -11,7 +13,13 @@ function App() {
     <header>
     <h1>Welcome to my seasonal website!</h1>
     </header>
-    <div className="photoDiv">
+    <section className="Card">
+      <Card img={winterImage} name="Winter time"/>
+      <Card img={springImage} name="Spring time"/>
+      <Card img={summerImage} name="Summer time"/>
+      <Card img={fallImage} name="Fall time"/>
+    </section>
+    {/* <div className="photoDiv">
     <div>
       <img 
         src={winterImage}
@@ -40,7 +48,7 @@ function App() {
       ></img>
       <p>Fall time</p>
     </div>
-    </div>
+    </div> */}
     <div className="textContainer">
     <h2>Some of my favorite seasonal activities are:</h2>
       <ul>
